@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font: monospace;
+}
+
+@font-face {
+    font-family: "miracle_dreamregular";
+    src: 
+        url("fonts/miracle_dream-webfont.woff"),
+        url("fonts/miracle_dream-webfont.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font: 
+        8em "miracle_dreamregular",
+        sans-serif;
+    color: white;
+    padding-bottom: 10px;
+    }
+
+body {
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    background-color: white;
+}
+
+#img-container {
+    background: url(img/james-lee-Jgf19RffQhk-unsplash.jpg);
+    width: 40%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#logo-container {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+
+#content-container {
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+}
+
+
+p {
+    font-size: 1.5em;
+    font-weight:bold;
+    letter-spacing: 0.3px;
+    padding: 16px;
+    width: 70%;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-row {
+    padding-left: 16px;
+     display: flex;
+     flex-direction: row;
+     gap: 32px;
+     padding-top: 16px;
+}
+
+input {
+    display: block;
+    width: 229px;
+    height: 30px;
+
+    box-shadow: 2px 2px 6px 0px rgba(90, 86, 86, 0.75);
+}
+
+button {
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 160px;
+    padding: 8px;
+    font: 2em "helvetica";
+    font-weight: bold;
+}
+
+#top-form {
+    margin-bottom: 80px 
+}
+
+div > label {
+    font-size: 0.8em;
+}
+
+#odin-icon {
+    width: 120px; 
+}
+
+form {
+    background-color: #ee9c59;
+    box-shadow: 2px 2px 6px 0px rgba(90, 86, 86, 0.75);
+    padding-bottom: 24px;
+}
